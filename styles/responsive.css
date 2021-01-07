@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+    #title {
+        font-size: 250%;
+    }
+
+    #langue {
+        height: 55px;
+    }
+    #footer {
+        font-size: 14px;
+    }
+    .toolboxImg {
+        width: 400px;
+    }
+    .toolboxImg img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #title {
+        font-size: 225%;
+    }
+
+    #langue {
+        height: 45px;
+    }
+    #footer {
+        font-size: 13px;
+    }
+    .toolboxImg {
+        width: 350px;
+    }
+    .toolboxImg img {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    #title {
+        font-size: 200%;
+    }
+
+    #langue {
+        height: 45px;
+    }
+    .spartie {
+        margin-left: 20%;
+    }
+    .sspartie {
+        margin-left: 25%;
+    }
+    .content {
+        font-size: 20px;
+    }
+    #footer {
+        font-size: 12px;
+    }
+    #lien {
+        display: none;
+    }
+    .toolboxImg {
+        width: 325px;
+    }
+    .toolboxImg img {
+        width: 325px;
+    }
+}
+
+@media (max-width: 800px) {
+    #title {
+        font-size: 180%;
+        width: 500px;
+    }
+
+    #langue {
+        height: 40px;
+    }
+    .content {
+        max-width: 80%;
+    }
+    #footer {
+        font-size: 11px;
+    }
+    .toolboxImg {
+        width: 300px;
+    }
+    .toolboxImg img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 650px) {
+    #title {
+        width: 400px;
+    }
+    .spartie {
+        margin-left: 15%;
+    }
+    .sspartie {
+        margin-left: 20%;
+    }
+    .content {
+        font-size: 24px;
+        max-width: 100%;
+    }
+    #footer {
+        font-size: 10px;
+    }
+    .toolboxImg {
+        width: 250px;
+    }
+    .toolboxImg img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 520px) {
+    #title {
+        width: 350px;
+    }
+    #footer {
+        font-size: 9px;
+    }
+    .toolboxImg {
+        width: 150px;
+    }
+    .toolboxImg img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+    #title {
+        position: relative;
+    }
+    #blangue {
+        position: relative;
+        top: -2em;
+    }
+    #footer {
+        font-size: 8px;
+    }
+}

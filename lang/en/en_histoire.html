@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The history of algorithmics</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/mainpagedesktop.css" />
+        <link rel="stylesheet" type="text/css" href="../../styles/nav.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/scrollbar.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/navArrows.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/responsive.css"/>
+    <link rel="icon" href=../../img/logo.png />
+</head>
+
+<body>
+    <header>
+        <h1 id="title" style="position:relative; top:20px;"><br />I. THE HISTORY OF ALGORITHMICS</h1>
+        <a id=blangue href="../fr/fr_histoire.html" target="_self"><img id=langue src="../../img/1.png" alt="langue" style="position:absolute;"></a>
+    </header>
+    <main>
+        <img id="main_img" src="../../img/histoire.jpeg" alt="Programming" style="box-shadow: 0 0rem 1rem #000;" />
+                <nav id=lien>
+            <a href="../../en_index.html" target="_self" class=nav><span class=toolbox2>The index</span><b>INDEX</b></a><br>
+            <a href="en_histoire.html" target="_self" class=nav><span class=toolbox2>The history of algorithmics</span>I. History</a><br>
+            <a href="en_technologie.html" target="_self" class=nav><span class=toolbox2>Constantly evolving technology</span>II. Technology</a><br>
+            <a href="en_sciences.html" target="_self" class=nav><span class=toolbox2>Agorithms in the sciences</span>III. Sciences</a><br>
+            <a href="en_economie.html" target="_self" class=nav><span class=toolbox2>Towards an increase in profit thanks to algorithms?</span>IV. Economy</a><br>
+            <a href="en_social.html" target="_self" class=nav><span class=toolbox2>A necessary social use</span>V. Social</a><br>
+            <a href="en_apprentissage.html" target="_self" class=nav><span class=toolbox2>A necessary social use</span>VI. Learning</a><br>
+            <a href="en_sources.html" target="_self" class=nav><span class=toolbox2>Sources and bibliography</span><b>BIBLIOGRAPHY</b></a>
+        </nav>
+        <br />
+        <div>
+            <h2 class=partie>A. Etymology of the term</h2>
+            <p class=content>
+                The first time we heard of an "Algorithm" was around the year 800. In Persia, thanks to the mathematician Abu Abdullah Muhammad ibn Musa al-Khwarizmi. The Latins only retained the Latinized form of his name which gave the word: Algorismus.
+            </p>
+            <h2 class=partie>B. Prelude to the algorithmic</h2>
+            <p class=content>
+                 One of the oldest algorithms and one of the best known is <span class="keyword">Euclid's algorithm</span>, which we will talk about a little later. Found in one of his books, and written around 300 BC, it allowed the <b>division</b> of two real numbers as well as the calculation of the <b>greatest common divisor between two integers</b>.  This shows that despite what one might think, the algorithms are very old. From then on, the algorithms created are exclusively used for mathematics, until the moment when computer science appears.<br><br><br> Since computer science is related to mathematics and requires a large number of often recurring calculations, it is here that algorithmics and computer science merge. The <span class="keyword">loops</span> of algorithms are going to be extremely useful for computing. This will subsequently allow a huge technological advance, the one we know today.
+            </p>
+            <h2 class=partie>C. Euclid's algorithm</h2>
+            <p class=content>
+                Euclid's algorithm is sometimes used to find the <span class="tooltip"><span class="keyword">PGCD</span><span class="toolbox">Larger Common Divisor</span></span> of two integers. This is a simple <span class="tooltip"><span class="keyword">Euclidean division</span><span class="toolboxImg"><img src="../../img/en_division.png" alt="Euclidean division"/></span></span> where the result "serves" the next division. We stop when the rest of the division is null, the resulting result is then the last rest of the division. The last remainder is then the GCD of the two integers used; in the example below <span class=keyword>36</span> is the GCD.
+            </p>
+            <table class=content>
+                <tr>
+                    <td>Dividend</td>
+                    <td>Divider</td>
+                    <td>Remain</td>
+                </tr>
+                <tr>
+                <td>360</td>
+                <td>252</td>
+                <td>108</td>
+                </tr>
+                <tr>
+                    <td>252</td>
+                    <td>108</td>
+                    <td class=keyword>36</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>36</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <p class=content id="last"><br>The extended Euclide algorithm allows it to calculate the Bezout coefficients of two integers <code>a</code> and <code>b</code> qui, for two other integers <code>u</code> and <code>v</code> such that <code>au + bv = GCD(a, b)</code> but also to find the solutions of an equation of the form <code>au + bv = 1</code> (Bezout Theorem).</p>
+        </div>
+        <h2 class="partie">D. Algorithms in the 19th century</h2>
+        <p class="content">
+            Yes, indeed, one could say that it was at this time that for the first time in the industrial world, the same method as an algorithm was used to obtain an object. I'm talking of course about line work!
+            <br><br>
+            <img src="https://i.imgur.com/sxHGYXh.gif" alt="Charlie Chapelin"/>
+            <br><br>
+            Then of course! The term "line work" reminds us directly of the sequence in the film "Modern Times" where Charlie Chaplin makes a humorous caricature of line work. But theoretically the process of assembly line work is the same as the definition of an algorithm.
+<br><br>We have 1 or more pieces at the base and we're going to do a lot of simple tasks in order to achieve a complex task and end up with a finished product.
+
+The best example of assembly line work is Taylorism, which is an improved and optimized version of the classic assembly line work. To illustrate what I am saying, I recommend that you consult this link and read the quote by following <a href="https://fr.wikipedia.org/wiki/Taylorisme#R%C3%A9action_au_contexte_d'une_industrialisation_ressentie_comme_d%C3%A9sordonn%C3%A9e" target="_blank">this link</a>.
+<br><br>
+After the second Industrial Revolution came the third Industrial Revolution where, precisely, we will exploit this aspect of Algorithm much more in order to make Internet, automata and robots see the light of day.
+        </p>
+        <div class="navigation">
+            <a href="en_technologie.html"><img class='arrow_right' src="../../img/arrow_right.png" alt="arrow_right"/></a>
+            <a href="../../en_index.html"><img class='arrow_left' src="../../img/arrow_left.png" alt="arrow_left"/></a>
+        </div>
+    </main>
+    <footer id="footer">
+        This part was written by <b>Bastien LEFUMEUX</b> and <b>Mathieu NEMNOM</b><br>&nbsp;
+    </footer>
+</body>
+
+</html>

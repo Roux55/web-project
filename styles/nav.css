@@ -1,0 +1,61 @@
+#lien{
+    position: sticky;
+    z-index:0;
+    margin-top:-7px;
+    top:43vh;
+    left:0px;
+    max-width:200px;
+    
+}
+
+.nav:hover .toolbox2 {
+    visibility: visible;
+    opacity: 1;
+    margin-top:2rem;
+}
+
+.tooltip2:hover .toolbox2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.toolbox2 {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    margin-top:inherit;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: auto;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.nav{
+    padding: 5px;
+    margin-left: -3px;
+    margin-right: -5px;
+    margin-top:3px;
+    background-color: #7451EB;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px 10px 10px  0;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #E5E5E5;
+    font-family:"Roboto";
+    font-size:18px;
+    box-sizing: border-box;
+}

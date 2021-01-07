@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>L'histoire de l'algorithmique</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/mainpagedesktop.css" />
+        <link rel="stylesheet" type="text/css" href="../../styles/nav.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/scrollbar.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/navArrows.css"/>
+        <link rel="stylesheet" type="text/css" href="../../styles/responsive.css"/>
+    <link rel="icon" href=../../img/logo.png />
+</head>
+
+<body>
+    <header>
+        <h1 id="title" style="position:relative; top:20px;"><br />I. L'HISTOIRE DE L'ALGORITHMIQUE</h1>
+        <a id=blangue href="../en/en_histoire.html" target="_self"><img id=langue src="../../img/2.png" alt="langue" style="position:absolute;"></a>
+    </header>
+    <main>
+        <img id="main_img" src="../../img/histoire.jpeg" alt="Programming" style="box-shadow: 0 0rem 1rem #000;" />
+                <nav id=lien>
+            <a href="../../index.html" target="_self" class=nav><span class=toolbox2>L'index</span><b>INDEX</b></a><br>
+            <a href="fr_histoire.html" target="_self" class=nav><span class=toolbox2>L'histoire de l'algorithmique</span>I. Histoire</a><br>
+            <a href="fr_technologie.html" target="_self" class=nav><span class=toolbox2>Une technologie en constante évolution</span>II. Technologie</a><br>
+            <a href="fr_sciences.html" target="_self" class=nav><span class=toolbox2>L'agorithmique au sein des sciences</span>III. Sciences</a><br>
+            <a href="fr_economie.html" target="_self" class=nav><span class=toolbox2>Vers une augmentation du profit grâce à l'algorithmique ?</span>IV. Économie</a><br>
+            <a href="fr_social.html" target="_self" class=nav><span class=toolbox2>Une utilisation sociale nécessaire</span>V. Social</a><br>
+            <a href="fr_apprentissage.html" target="_self" class=nav><span class=toolbox2>L'apprentissage de l'algorithmique</span>VI. Apprentissage</a><br>
+            <a href="fr_sources.html" target="_self" class=nav><span class=toolbox2>Sources et bibliographie</span><b>BIBLIOGRAPHIE</b></a>
+        </nav>
+        <br />
+        <div>
+            <h2 class=partie>A. Étymologie du terme</h2>
+            <p class=content>
+                La première fois qu’on entendit parler d’un ”Algorithme”, c’était vers l’an -800. En Perse, grâce au mathématicien Abu Abdullah Muhammad ibn Musa al-Khwarizmi. Les Latins n’ont retenu que la forme latinisée de son nom ce qui donna le mot : Algorismus.
+            </p>
+            <h2 class=partie>B. Prélude à l'algorithmique</h2>
+            <p class=content>
+                Un des plus anciens algorithmes et l'un des plus connus est <span class="keyword">l'algorithme d'Euclide</span>, dont nous parlerons un peu plus tard. Trouvé dans un de ses livres, et écrit approximativement vers l'an 300 avant J-C, il permettait la <b>division</b> de deux nombres réels ainsi que le calcul du <b>plus grand commun diviseur entre deux entiers</b>.  Cela démontre que malgré ce que l'on pourrait penser, les algorithmes sont très anciens. A partir de là, les algorithmes créés sont exclusivement utilisés pour les mathématiques, jusqu'au moment où l'informatique apparaît.<br><br><br> L'informatique étant liée aux mathématiques et nécessitant un grand nombre de calculs souvent récurrents, c'est ici qu'algorithmique et informatique se confondent. Les <span class="keyword">boucles</span> d'algorithmes vont être extrêmement utiles à l’informatique. Cela permettra par la suite une énorme avancée technologique, celle que nous connaissons aujourd'hui.
+            </p>
+            <h2 class=partie>C. Algorithme d'Euclide</h2>
+            <p class=content>
+                L’algorithme d’Euclide est parfois utilisé afin de trouver le <span class="tooltip"><span class="keyword">PGCD</span><span class="toolbox">Plus Grand Commun Diviseur</span></span> de deux nombres entiers. Il s’agit d’une simple <span class="tooltip"><span class="keyword">division euclidienne</span><span class="toolboxImg"><img src="../../img/fr_division.png" alt="Division euclidienne"/></span></span> où le résultat "sert" à la prochaine division. On s'arrête quand le reste de la division est nul, le résultat qui en découle est alors le dernier reste de la division. Le dernier reste est alors le PGCD des deux entiers utilisés ; dans l’exemple ci-dessous <span class=keyword>36</span> est le PGCD.
+            </p>
+            <table class=content>
+                <tr>
+                    <td>Dividende</td>
+                    <td>Diviseur</td>
+                    <td>Reste</td>
+                </tr>
+                <tr>
+                <td>360</td>
+                <td>252</td>
+                <td>108</td>
+                </tr>
+                <tr>
+                    <td>252</td>
+                    <td>108</td>
+                    <td class=keyword>36</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>36</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <p class=content id="last"><br>L’algorithme d’Euclide étendu permet lui de calculer les coefficients de Bezout de deux entiers <code>a</code> et <code>b</code> qui, pour deux autres entiers <code>u</code> et <code>v</code> tels que <code>au + bv = PGCD(a, b)</code> mais aussi de trouver les solutions d'une équation de la forme <code>au + bv = 1</code> (Théorème de Bezout).</p>
+        </div>
+        <h2 class="partie">D. Les algorithmes au XIXe siècle</h2>
+        <p class="content">
+            Oui, en effet, on pourrait dire que c’est à cette période que pour la première fois, dans le monde industriel, qu’on utilise la même méthode qu'un algorithme pour obtenir un objet. Je parle bien sûr du travail à la chaîne !
+            <br><br>
+            <img src="https://i.imgur.com/sxHGYXh.gif" alt="Charlie Chapelin"/>
+            <br><br>
+            Alors bien sûr ! Le terme de « travail à la chaîne » nous fait directement penser à la séquence du film « Les Temps modernes » où Charlie Chaplin nous fait une caricature humoristique du travail à la chaîne. Mais théoriquement le procédé du travail à la chaîne est le même que la définition d’un algorithme.
+<br><br>On a 1 ou plusieurs pièces à la base et on va faire plein de tâches simples afin de réaliser une tâche complexe et de finir à un produit abouti.
+
+Le meilleur exemple du travail à la chaîne est le Taylorisme, on pourrait limite dire que c’est une version améliorée et optimisée du travail à la chaîne classique. Pour illustrer mes propos, je vous recommande de consulter ce lien et d'y lire la citation en suivant <a href="https://fr.wikipedia.org/wiki/Taylorisme#R%C3%A9action_au_contexte_d'une_industrialisation_ressentie_comme_d%C3%A9sordonn%C3%A9e" target="_blank">ce lien</a>.
+<br><br>
+Après la seconde Révolution industrielle vint la troisième Révolution Industrielle où justement, on va bien plus exploiter cet aspect d’Algorithme afin de faire voir le jour à internet, aux automates et aux robots.
+        </p>
+        <div class="navigation">
+            <a href="fr_technologie.html"><img class='arrow_right' src="../../img/arrow_right.png" alt="arrow_right"/></a>
+            <a href="../../index.html"><img class='arrow_left' src="../../img/arrow_left.png" alt="arrow_left"/></a>
+        </div>
+    </main>
+    <footer id="footer">
+        Cette partie a été rédigée par <b>Bastien LEFUMEUX</b> et <b>Mathieu NEMNOM</b><br>&nbsp;
+    </footer>
+</body>
+
+</html>

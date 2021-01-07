@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+html {
+    background-color:#7451EB;
+}
+
+* {
+    box-sizing:border-box;
+    margin:0;   
+}
+   
+#blangue {
+    position: absolute;
+    border-style: hidden;
+    background-color: #7451EB;
+    left: 1%;
+    top: 4.6rem;
+}
+
+#langue {
+    height: 60px;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -50px;
+    z-index: 5;
+    background-color:#7451EB;
+    height:10rem;
+    width:auto;
+    box-shadow: 0 0rem 4rem #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-family:"Fredoka One";
+    font-size:300%;
+    text-align:center;
+    color:white;
+    margin-bottom: 45px;
+    
+}
+
+#main_img {
+    width:100%;
+}
+
+main {
+    background-color:#E9EAED;
+    font-family:"Roboto";
+    color:black;
+    z-index:1;
+    position:relative;
+    box-shadow: 0 0rem 4rem #000;
+}
+
+.partie {
+    font-family:"Fredoka One";
+    font-size:2rem;
+    color:#7451EB;
+    margin:2vw;
+    max-width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spartie {
+    font-family:"Fredoka One";
+    font-size:1.5rem;
+    color:black;
+    margin:2vw;
+    max-width:60%;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-bottom:-2rem;
+    margin-top:4rem;
+}
+
+.sspartie {
+    font-family:'Comfortaa', cursive;
+    font-size:1.5rem;
+    color:black;
+    margin:2vw;
+    max-width:60%;
+    margin-left: 35%;
+    margin-right: auto;
+    margin-bottom:-2rem;
+    margin-top:2.5rem;
+}
+
+.spartie a {
+    text-decoration:none;
+    color:black;
+}
+
+.spartie a:hover {
+    text-decoration:none;
+    transition:0.35s;
+    color:goldenrod;
+}
+
+.sspartie a {
+    text-decoration:none;
+    color:black;
+}
+
+.sspartie a:hover {
+    text-decoration:none;
+    transition:0.35s;
+    color:goldenrod;
+}
+
+.content {
+    background-color:#E9EAED;
+    font-family:"Roboto";
+    font-size:18px;
+    color:black;
+    margin:3vw;
+    width:80vw;
+    max-width:60%;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-bottom: 50px;
+}
+
+.tooltip:hover .toolbox {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip:hover .toolboxImg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.toolbox {
+    visibility: hidden;
+    width: 130px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.toolboxImg {
+    visibility: hidden;
+    width: 518px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#sources a {
+    text-decoration:none;
+    color:royalblue;
+}
+
+#sources a:hover {
+    text-decoration:none;
+    transition:0.35s;
+    color:goldenrod;
+}
+
+.content a {
+    text-decoration:none;
+    color:royalblue;
+}
+
+.content a:hover {
+    text-decoration:none;
+    transition:0.35s;
+    color:goldenrod;
+}
+
+
+code {
+    color:goldenrod;
+    font-family:"Cascadia Code";
+}
+
+
+span.keyword {
+    color:#B77FDB;
+}
+
+table {
+    line-height: 30px;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+}
+
+td {
+    text-align: center;
+    border-color: black;
+    border-style:solid ;
+}
+
+#last {
+    padding-bottom: 4vw;
+}
+
+#footer {
+    font-family:"Roboto";
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    font-size:15px;
+    background-color:#7451EB;
+    color:white;
+    text-align:center;
+    overflow:auto;
+
+}
+
+
+
