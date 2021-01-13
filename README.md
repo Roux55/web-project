@@ -3,3 +3,4 @@ Our first web project with my classmates (we were three on it). This website doe
 
 
 This project was created for an educational purpose (IUT Informatique de Nice)
+
