@@ -4,4 +4,4 @@ Our first web project with my classmates (we were three on it). This website doe
 
 This project was created for an educational purpose (IUT Informatique de Nice)
 
-You can access the website by following ![this link](https://marcpinet.github.io/web-project.github.io/)
+You can access the website by following [this link](https://marcpinet.github.io/web-project.github.io)
